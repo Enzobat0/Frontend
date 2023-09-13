@@ -1,6 +1,10 @@
 body, main{
 	display:flex;
 }
+header{
+	background-color: yellow;
+	border: 1px white;
+}
 main{
 	flex-direction: row;
 	flex: auto;
@@ -8,6 +12,7 @@ main{
 article{
 	flex:2;
 	overflow-y: auto;
+	background-color: orange;
 }
 aside{
 	flex:1;
